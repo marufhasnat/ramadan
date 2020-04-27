@@ -1,0 +1,86 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    section h2 {
+    font-size: 50px;
+}
+
+    section h2::before {
+    left: -10px;
+    top: -24px;
+    width: 120px;
+    height: 120px;
+    border-left: 9px solid white;
+
+}
+    section h2 span {
+    font-size: 28px;
+    left: -30px;
+    top: -30px;
+}
+    .mosque {
+    height: 150px;
+}
+    .mosque::before {
+
+    height: 300px;
+}
+
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    section h2 {
+    font-size: 56px;
+}
+    section h2::before {
+    left: -30px;
+    top: -50px;
+}
+    section h2 span {
+    font-size: 30px;
+    left: -60px;
+    top: -30px;
+}
+    .mosque {
+    height: 280px;
+}
+    .mosque::before {
+    height: 370px;
+}
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section h2 {
+    font-size: 100px;
+    top: -30px;
+}
+    section h2::before {
+    top: -10px;
+    left: -30px;
+}
+    section h2 span {
+    font-size: 37px;
+    left: -180px;
+    top: -80px;
+}
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    section h2{
+    font-size: 155px;
+    }
+    section h2::before {
+    left: -50px;
+}
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+}
